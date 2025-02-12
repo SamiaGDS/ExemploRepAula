@@ -9,7 +9,7 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Exemplo aula GitHub
+## Linkando o repositório ao RStudio
 
 Fizemos o login no GitHub pelo browser 
 No GitHub criamos um repositório
@@ -19,6 +19,23 @@ File >
     Control version > 
       GitHub
 Será possível inserir a URL do repositório criado no browser
+
+## Trabahando na pasta do projeto
+
+Após linkar o repositório, crio uma pasta no computador que será o meu diretório de trabalho. 
+É recomendável criar uma pasta já com a organização que servirá de guia para o resto do trabalho no projeto. 
+Sempre que eu for trabalhar no projeto, eu abro o R Project. Dentro dele eu posso trabalhar com um R Script, com markdown ou qualquer outra coisa. 
+Por exemplo, na pasta ue eu criei, o R Script está na pasta principal e o Rmarkdown está na pasta manuscript. Abrindo o projeto "ExemplosRepAula" eu consigo acessas todas essas coisas. 
+
+## Salvando as alterações
+
+Toda modificação feita no projeto aparece na aba direita superior. Para que eu possa salvar um ponto de retorno na minha linha do tempo de trabalho eu seleciono as aterações que devem ser salvas e clico em "commit". 
+Na janela do commit ele indica em verda as adicções e em vermelho as exclusões. Posso verifiar o que deve ser salvo, escever uma mensagem e clicar em "commit" para criar um ponto de restauração para aquela versão. 
+
+## Usando a nuvem
+
+Após fazer os "commits", eu estou salvando pontos de restauração no meu PC. Para subir as alterações para a nuvem devemos clicar em "Push" na janela direita superior. 
+De forma anáoga, a função "Pull" serve para buscar alguma coisa da nuvem para o meu PC. Por exemplo, alguma alteração feita por um colaborador. 
 
 
     
